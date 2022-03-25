@@ -5,11 +5,21 @@
     padding : 0;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    transform: translateX(+20px) ;
+}
+
 .sidebar{
     background-color: rgb(179, 174, 174);
     width: 20vw;
     font-family: 'Fira Sans', sans-serif;
-    height: 200vh;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
 } 
 
 .sidebar nav{
