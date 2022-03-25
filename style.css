@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+ *{
+    margin : 0;
+    padding : 0;
+}
+
+.sidebar{
+    background-color: rgb(179, 174, 174);
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 200vh;
+} 
+
+.sidebar nav{
+    padding: 38px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: larger;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+   /* background-color: rgb(79, 150, 126);*/
+    height: 43vh;
+    width: 80vw;
+    margin: 127px auto;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Abel', sans-serif;
+}
+
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about{
+    font-size: 44px
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.Contact{
+    font-size: 23px;
+    font-family: 'Abel', sans-serif;
+    margin: 15px;
+}
+
+.intro h1{
+    font-family: 'Abel', sans-serif;
+    margin: 10px;
+}
+.intro p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin: 13px;
+}
+
+.intro h2{
+    font-family: 'Abel', sans-serif;
+    margin: 10px;
+}
+
+.skillcontainer{
+    padding: 12px
+}
+
+.Skills{
+    list-style: none;
+    padding: 6px 10px;
+}
+
+.Education h1{
+    font-family: 'Abel', sans-serif;
+    padding: 50px;   
+}
+
+.Education div{
+    font-family: 'Abel', sans-serif;
+    padding: 4px;   
+    margin-left: 45px;
+}
