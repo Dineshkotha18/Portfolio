@@ -40,6 +40,10 @@
 .main{
    /* background-color: yellow;*/
     width: 90vw;
+    height: 100vh;
+    padding: 5px;
+    display: grid;
+    place-content: center;
 }
 
 .container{
